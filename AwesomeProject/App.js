@@ -12,7 +12,7 @@ export default class App extends Component {
             return (
 
                 <View style={styles.container}>
-                    <Text>   {this.props.SOME_VARIABLE_1}</Text>
+
 
                     <Text style={styles.scores}>Hello Words</Text>
                 </View>
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     scores: {
         textAlign: 'center',
         color:'white',
-        marginBottom: 5,80892
+        marginBottom:5
     },
 
 });

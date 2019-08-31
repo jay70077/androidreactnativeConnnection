@@ -18,6 +18,7 @@ buildscript {
 allprojects {
     repositories {
         google()
+        mavenLocal()
         jcenter()
         maven {
            // url "../TestReacTNantive/AwesomeProject/node_modules/react-native/android"
